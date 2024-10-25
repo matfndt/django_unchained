@@ -1,0 +1,39 @@
++
+# Rust ignores
+rail_forge/target/
+rail_forge/Cargo.lock
+rail_forge/*.core
+
+# rust and python bindings
+rusted_rails/.maturin/
+rusted_rails/target/wheels/
+rusted_rails/target/release/*.so
+rusted_rails/target/release/*.pyd
+
+# pyhon ignores
+snake_trail/__pycache__/ 
+snake_trail/*.py[cod]  
+snake_trail/*.pyo
+snake_trail/*.egg
+snake_trail/*.egg-info/
+snake_trail/dist/
+snake_trail/build/
+snake_trail/pip-wheel-metadata/
+# virtual environemnt types
+snake_trail/.venv/
+snake_trail/.env
+snake_trail/.env.*
+snake_trail/*.env
+# ASGI/UVicorn server logs
+snake_trail/*.log
+
+# Editor/IDE and System Files
+**/.vscode/
+**/.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.DS_Store                            # macOS
+Thumbs.db                            # Windo
+
+.env

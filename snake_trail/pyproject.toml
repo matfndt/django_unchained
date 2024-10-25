@@ -1,0 +1,10 @@
+[project]
+name = "snake-trail"
+version = "0.1.0"
+description = "Python API layer for Django Unchained, powered by Rust core."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.3",
+    "uvicorn>=0.32.0",
+]
